@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/contact.dart';
 import '../services/rest_api_contacts.dart';
 
-// Never User AnyWhere
+// Never Uses AnyWhere
 class Contacts extends ChangeNotifier {
   List<Contact> _contacts = [];
 
